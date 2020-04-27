@@ -53,13 +53,13 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
-            "name": "INDEKS_KAPASITAS_DAERAH_KABKOTA_2015"
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services",
+            "name": "inaRISK"
 
         },
         "includeLayers": [
             {
-                "name": "INDEKS_KAPASITAS_DAERAH_KABKOTA_2015",
+                "name": "INDEKS_BAHAYA_BANJIR",
                 "displayName": "test"
             }
         ]
