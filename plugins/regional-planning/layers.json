@@ -59,38 +59,8 @@
         },
         "includeLayers": [
             {
-                "name": "INDEKS_KAPASITAS_DAERAH_KABKOTA_2015"
-            }
-        ]
-    },
-    
-	{
-        "displayName": "InaRISK Vulnerability Assessment",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
-            "name": "INDEKS_KERENTANAN_BANJIR"
-
-        },
-        "includeLayers": [
-            {
-                "name": "INDEKS_KERENTANAN_BANJIR"
-            }
-        ]
-    },
-    {
-        "displayName": "InaRISK Combined Flood Risk Index",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
-            "name": "INDEKS_RISIKO_BANJIR"
-
-        },
-        "includeLayers": [
-            {
-                "name": "INDEKS_KERENTANAN_BANJIR"
+                "name": "INDEKS_KAPASITAS_DAERAH_KABKOTA_2015",
+                "displayName": "test"
             }
         ]
     }
