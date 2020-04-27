@@ -21,10 +21,10 @@
             { "text": "Washington", "url": "https://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -81.95,
-        30.70,
-        -81.40,
-        31.17
+        92.71,
+        -22.89,
+        143.32,
+        18.23
     ],
     "basemaps": [
         { "name": "World Topographic"        , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },

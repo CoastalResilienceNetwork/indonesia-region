@@ -1,40 +1,67 @@
 [
     {
-        "displayName": "Camden County",
+        "displayName": "Indonesia",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Georgia",
-            "name": "Georgia"
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Indonesia",
+            "name": "Indonesia"
         },
         "includeLayers": [
             {
-                "name": "Critical Infrastructure",
-				"includeAllLayers": true				
+                "name": "OSM Natural Land Cover"			
             },
 			{
-                "name": "FEMA Flood",
+                "name": "Mangroves",
 				"includeAllLayers": true
             },
 			{
-				"name" : "Future LandUse",
+				"name" : "Flood Risk to Infrastructure",
 				"includeAllLayers": true
 			},
 			{
-				"name" : "2018 Parcels (zoom to view)"
-			},
-			{
-				"name" : "Flood and SLR Layers",
+				"name" : "Flood Risk to People",
 				"includeAllLayers": true
 			},
 			{
-				"name" : "Ecological",
+				"name" : "Boundaries",
 				"includeAllLayers": true
 			},
 			{
-				"name" : "Zoning",
+				"name" : "Raja Ampat Example",
 				"includeAllLayers": true
 			}
+        ]
+    },
+    {
+        "displayName": "InaRISK Flood Hazard Assessment",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK"
+
+        },
+        "includeLayers": [
+            {
+                "name": "INDEKS_BAHAYA_BANJIR",
+                "displayName": "Flood Hazard Risk",
+                "description":"A flood describes the inundation of land that is normally dry by a large amount of water. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
+            },
+            {
+                "name": "INDEKS_KAPASITAS_DAERAH_KABKOTA_2015",
+                "displayName": "Capacity",
+                "description":"Assessed using a regional level resilience approach based on seven priorities Strengthening policies and institutional, Risk assessment and integrated planning, System development information, training and logistics, Thematic handling of disaster prone areas,  Improvement effectiveness of disaster prevention and mitigation, Strengthening preparedness and handling disaster emergency, and system development disaster recovery.InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015."
+            },
+            {
+                "name": "INDEKS_KERENTANAN_BANJIR",
+                "displayName": "Vulnerability",
+                "description":"Includes social (ration of women, children, poor, disabled and physical (value of houses, public facilities, and critical facilities based on hazard class in affected area), and economic (value of productive land that contributes to GDP - plantation, forrest, ag, rice fields, mining). Vulnerability score is (social score x 40%) + (physical score x 30%) + (economic score x 30%).InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015."
+            },
+            {
+                "name": "INDEKS_RISIKO_BANJIR",
+                "displayName": "Combined Flood Risk Index",
+                "description":"Final combined flood risk score where Risk = hazard x (vuln/capacity). InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015."
+            }
         ]
     }
 ]
