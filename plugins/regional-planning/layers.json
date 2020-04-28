@@ -33,38 +33,19 @@
 			}
         ]
     },
-    {
-        "displayName": "InaRISK Capacity Assessment",
+     {
+        "displayName": "InaRISK Flood Hazard",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/"
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/map_service/",
+            "name": "indeks_bahaya_banjir"
+
         },
         "includeLayers": [
             {
-                "server": {
-                    "name": "INDEKS_BAHAYA_BANJIR"
-                },
                 "name": "INDEKS_BAHAYA_BANJIR",
-                "displayName": "Final FEMA Surge Area - February 2013"
-            }
-        ]
-    },
-    {
-        "displayName": "InaRISK Capacity Assessment",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/"
-        },
-        "includeLayers": [
-            {
-                "server": {
-                    "name": "INDEKS_BAHAYA_BANJIR"
-                },
-                "name": "INDEKS_BAHAYA_BANJIR",
-                "displayName": "Final FEMA Surge Area - February 2013",
-                "includeAllLayers": true
+                "displayName": "Flood Hazard"
             }
         ]
     }
