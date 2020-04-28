@@ -59,8 +59,7 @@
         },
         "includeLayers": [
             {
-                "name": "INDEKS_BAHAYA_BANJIR",
-                "displayName": "test"
+                "includeAllLayers": true
             }
         ]
     }
