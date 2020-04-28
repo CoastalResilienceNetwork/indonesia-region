@@ -55,13 +55,14 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/"
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/services/inaRISK/",
+            "name": "layer_bahaya_banjir"
         },
         "includeLayers": [
             {
-                "server": {
-                    "name": "INDEKS_BAHAYA_BANJIR"
-                }
+                "name": "ImageServer",
+                "displayName": "test",
+                "description":"A flood describes the inundation of land that is normally dry by a large amount of water. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
             }
         ]
     }
