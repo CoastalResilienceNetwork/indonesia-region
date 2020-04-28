@@ -55,12 +55,12 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/services/inaRISK/INDEKS_BAHAYA_BANJIR/ImageServer/WMSServer?request=GetCapabilities&service=WMS"
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/",
+            "name": "INDEKS_BAHAYA_BANJIR"
         },
         "includeLayers": [
             {
-                "name": "INDEKS_BAHAYA_BANJIR",
-                "displayName": "test"
+             "includeAllLayers": true
             }
         ]
     },
@@ -69,7 +69,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/services/inaRISK/INDEKS_BAHAYA_BANJIR/ImageServer/WMSServer?request=GetCapabilities&service=WMS"
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/",
+            "name": "INDEKS_BAHAYA_BANJIR"
         }
     }
 ]
