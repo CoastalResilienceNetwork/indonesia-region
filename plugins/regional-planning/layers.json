@@ -49,28 +49,5 @@
                 "description":"A flood describes the inundation of land that is normally dry by a large amount of water. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
             }
         ]
-    },
-    {
-        "displayName": "test",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/",
-            "name": "INDEKS_BAHAYA_BANJIR"
-        },
-        "includeLayers": [
-            {
-             "includeAllLayers": true
-            }
-        ]
-    },
-    {
-        "displayName": "test2",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/",
-            "name": "INDEKS_BAHAYA_BANJIR"
-        }
     }
 ]
