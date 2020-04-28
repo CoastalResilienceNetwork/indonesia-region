@@ -55,7 +55,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/services/inaRISK/",
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK/",
             "name": "layer_bahaya_banjir"
         },
         "includeLayers": [
