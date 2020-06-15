@@ -34,20 +34,32 @@
         ]
     },
     {
-        "displayName": "InaRISK Flood Hazard",
+        "displayName": "InaRISK Hazard Risk Index",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/map_service/",
-            "name": "indeks_bahaya_banjir"
+            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
+            "name": "Peta_Risiko"
 
         },
         "includeLayers": [
             {
-                "name": "INDEKS_BAHAYA_BANJIR",
-                "displayName": "Flood Hazard",
-                "description":"A flood describes the inundation of land that is normally dry by a large amount of water. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
+                "name": "Indeks Risiko Gelombang Ekstrim dan Abrasi",
+                "displayName": "Extreme Wave and Abrasion Risk",
+                "description":"InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
+            },
+            {
+                "name": "Indeks Risiko Cuaca Ekstrim",
+                "displayName": "Extreme Weather Risk",
+                "description":"InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
+            },
+            {
+                "name": "Indeks Risiko Banjir",
+                "displayName": "Flood Risk",
+                "description":"A flood describes the inundation of land that is normally dry by a large amount of water. For example, a flood can occur after heavy rainfall, when a river overflows its banks. The effect of a flood is for land that is normally dry to become wet.InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
             }
+
         ]
     }
+    
 ]
