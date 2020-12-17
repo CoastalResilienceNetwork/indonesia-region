@@ -34,88 +34,19 @@
         ]
     },
     {
-        "displayName": "InaRISK Hazard Risk Index",
+        "displayName": "Federated States of Micronesia",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
-            "name": "Peta_Bahaya"
-
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Indonesia",
+            "name": "Indonesia"
         },
         "includeLayers": [
             {
-                "name": "Indeks Bahaya Gelombang Ekstrim dan Abrasi",
-                "displayName": "Extreme Wave and Abrasion Hazard Risk",
-                "description":"Physical exposure to extreme wave and abrasion. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            },
-            {
-                "name": "Indeks Bahaya Cuaca Eksttrim",
-                "displayName": "Extreme Weather Hazard Risk",
-                "description":"Physical exposure to extreme weather. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            },
-            {
-                "name": "Indeks Bahaya Banjir",
-                "displayName": "Flood Hazard Risk",
-                "description":"Physical exposure to flood hazard. A flood describes the inundation of land that is normally dry by a large amount of water. For example, a flood can occur after heavy rainfall, when a river overflows its banks. The effect of a flood is for land that is normally dry to become wet.InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
+                "name": "FSM",
+                "displayName": "Vulnerable Populations",
+                "includeAllLayers": true
             }
-
         ]
-    },
-    {
-        "displayName": "InaRISK Vulnerability Index",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
-            "name": "Peta_Kerentanan"
-
-        },
-        "includeLayers": [
-            {
-                "name": "Indeks Kerentanan Gelombang Ekstrim dan Abrasi",
-                "displayName": "Extreme Wave and Abrasion Risk",
-                "description":"Vulnerability is defined as physical (women, elderly, disabled), socio-cultural, economy, and environment that is vulnerable to extreme wave and abrasion. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            },
-            {
-                "name": "Indeks Kerentanan Cuaca Ekstrim",
-                "displayName": "Extreme Weather Risk",
-                "description":"Vulnerability is defined as physical (women, elderly, disabled), socio-cultural, economy, and environment that is vulnerable to extreme weather. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            },
-            {
-                "name": "Indeks Kerentanan Banjir",
-                "displayName": "Flood Risk",
-                "description":"Vulnerability is defined as physical (women, elderly, disabled), socio-cultural, economy, and environment that is vulnerable to flooding. A flood describes the inundation of land that is normally dry by a large amount of water. For example, a flood can occur after heavy rainfall, when a river overflows its banks. The effect of a flood is for land that is normally dry to become wet.InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            }
-
-        ]
-    },
-    {
-        "displayName": "InaRISK Combined Risk Index",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://service1.inarisk.bnpb.go.id:6080/arcgis/rest/services/inaRISK",
-            "name": "Peta_Risiko"
-
-        },
-        "includeLayers": [
-            {
-                "name": "Indeks Risiko Gelombang Ekstrim dan Abrasi",
-                "displayName": "Extreme Wave and Abrasion Risk",
-                "description":"Combined physical exposure, vulnerability, and capacity scores relating to extreme wave and abrasion hazard. Capacity includes institutional factors, resilience, and mitigation or prevention capacity. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            },
-            {
-                "name": "Indeks Risiko Cuaca Ekstrim",
-                "displayName": "Extreme Weather Risk",
-                "description":"Combined physical exposure, vulnerability, and capacity scores relating to extreme weather hazard. Capacity includes institutional factors, resilience, and mitigation or prevention capacity. InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            },
-            {
-                "name": "Indeks Risiko Banjir",
-                "displayName": "Flood Risk",
-                "description":"Combined physical exposure, vulnerability, and capacity scores relating to flood hazard. Capacity includes institutional factors, resilience, and mitigation or prevention capacity. A flood describes the inundation of land that is normally dry by a large amount of water. For example, a flood can occur after heavy rainfall, when a river overflows its banks. The effect of a flood is for land that is normally dry to become wet.InaSAFE has been jointly developed by the Indonesian Government-BNPB, the Australian Government, the World Bank-GFDRR and independent contributors. 2015"
-            }
-
-        ]
-    }
-    
+    }    
 ]
