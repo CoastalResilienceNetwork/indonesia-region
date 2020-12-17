@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Indonesia",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Indonesia",
             "name": "Indonesia"
         },
         "includeLayers": [
@@ -38,7 +38,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Indonesia",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Indonesia",
             "name": "Indonesia"
         },
         "includeLayers": [
