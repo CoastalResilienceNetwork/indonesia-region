@@ -32,5 +32,21 @@
 				"includeAllLayers": true
 			}
         ]
-    }
+    },
+    {
+        "displayName": "Federated States of Micronesia",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Indonesia",
+            "name": "Indonesia"
+        },
+        "includeLayers": [
+            {
+                "name": "FSM",
+                "displayName": "Vulnerable Populations",
+                "includeAllLayers": true
+            }
+        ]
+    }    
 ]
