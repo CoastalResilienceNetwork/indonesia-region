@@ -2,7 +2,7 @@
     "googleAnalyticsPropertyId": "7401895-54",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Indonesia", "url": "" },
-    "titleDetail": { "text": "& The Federated States of Micronesia", "url": "https://coastalresilience.org/indonesia" },
+    "titleDetail": { "text": "", "url": "https://coastalresilience.org/indonesia" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
@@ -54,7 +54,7 @@
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "Indonesia & The Federated States of Micronesia",
+            "title": "Indonesia",
             "description": "<p>The Coastal Resilience decision-support tool enables users to examine where nature can increase resilience and reduce risk through conservation and restoration activities.</p>",
  			"plugins": [              
                 {
